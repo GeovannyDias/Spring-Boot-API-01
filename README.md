@@ -193,9 +193,15 @@ SELECT * FROM productos;
 ## Many-To-Many Relationship in JPA
 
 * **https://www.baeldung.com/jpa-many-to-many**
+* **https://www.baeldung.com/spring-data-rest-relationships**
+* **https://medium.com/codestorm/spring-boot-jpa-entity-relationships-526d46ae228e**
+* **https://medium.com/huawei-developers/database-relationships-in-spring-data-jpa-8d7181f50f60**
 
 ```
-Implementation in JPA
+- Implementation in JPA
+- Working with Relationships in Spring Data REST
+- Spring Boot — JPA Entity Relationships
+- Database Relationships In Spring Data JPA
 
 ```
 
