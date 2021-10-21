@@ -28,6 +28,15 @@ http://localhost:8080/
 
 ```
 
+## Config Database
+_Modificar el fichero application.properties y agregar las credenciales de conexión a la base de datos MySQL_
+
+```
+Path:
+
+demo\src\main\resources\application.properties
+```
+
 ## Accessing data with MySQL
 
 * **https://spring.io/guides/gs/accessing-data-mysql/**
