@@ -200,7 +200,6 @@ use mibasedatos;
 show databases;
 
 
-
 Otras Sentencias SQL:
 
 
