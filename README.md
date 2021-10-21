@@ -230,3 +230,24 @@ Para salir de la línea de comandos de MySQL:
 mysql> quit
 
 ```
+
+## Aplicaciones web con Spring Boot capa a capa
+
+* **https://www.adictosaltrabajo.com/2016/12/22/aplicaciones-web-con-spring-boot-capa-a-capa/**
+
+```
+
+@Controller: Con esta anotación Spring podrá detectar la clase SampleController cuando realice el escaneo de componentes.
+
+@Autowired: A través de esta anotación Spring será capaz de llevar a cabo la inyección de dependencias sobre el atributo marcado. En este caso, estamos inyectando la capa de servicio, y por eso no tenemos que instanciarla.
+
+@RequestMapping: Con esta anotación especificamos la ruta desde la que escuchará el servicio, y qué método le corresponde.
+
+@ResponseBody: Con ella definimos lo que será el cuerpo de la respuesta del servicio.
+
+@PathVariable: Sirve para indicar con qué variable de la url se relaciona el parámetro sobre el que se esté usando la anotación.
+
+Podemos también utilizar la etiqueta @RestController en lugar de @Controller, que sustituye al uso de @Controller + @ResponseBody, quedando el controlador de la siguiente forma:
+
+
+```
