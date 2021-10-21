@@ -190,7 +190,7 @@ SELECT * FROM productos;
 
 ```
 
-## Many-To-Many Relationship in JPA
+## Relationship in JPA
 
 * **https://www.baeldung.com/jpa-many-to-many**
 * **https://www.baeldung.com/spring-data-rest-relationships**
